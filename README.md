@@ -1,0 +1,11 @@
+I’m designing a single-page web presence for myself. It will definitely live at my GitHub User Page at [karlstolley.github.io](http://karlstolley.github.io/) and might also appear, possibly in a somewhat modified form, at my [karlstolley.com](http://karlstolley.com/) site. I’m creating this because my web presence needs a reboot, but also because I’m completing the assignments along with my [web design students](http://courses.karlstolley.com/327/) during fall 2014.
+
+Past professional presences that I’ve created for myself have followed one of two obvious, predictable, and ultimately uninteresting organizational schemes used by academics everywhere: either different professional roles (teaching, research, service, sometimes administration) or by major projects that reflect each of those roles, as in [the most recent version of my site](https://github.com/karlstolley/j-karlstolley.com/tree/3b67e943f5169e483d97c68be95c9d16a9cbd1a8).
+
+But the way I understand myself is not merely as someone who splits his time between teaching, research, service, etc. And while the projects I do are representative of who I am, at least in some measure, a collection of them don’t really speak to the problems, ideas, and values that actually **are** part of how I understand myself. So that’s the direction I think I want to take: state explicitly for myself what those central and often tacit ideas are, and then rework them for the kinds of audiences who might happen upon my professional presence on the web. Easy, right?
+
+As even this README shows, I love to ramble on. My writing is often in need of tightening. So the danger is to not write a massive essay about myself that absolutely no one will read, but to create something that has enjoyably brief written content, some compelling visuals (but not a ton) and a few links out to work that’s connected to the idea/concept. (That’ll all be in addition to the usual contact info and third-party profiles for Twitter, etc., marked up as an [hCard microformat](http://microformats.org/wiki/hcard) and the [microformats 2](http://microformats.org/wiki/microformats2) [h-card](http://microformats.org/wiki/h-card) specifications.)
+
+But, enough stalling: what are these big ideas that I think drive and identify me?
+
+
