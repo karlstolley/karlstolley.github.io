@@ -16,6 +16,7 @@ article,aside,header,footer,small {
 /* Base */
 html {
   font-family: Georgia,Times,"Times New Roman",serif;
+  /* http://modularscale.com/scale/?px1=22&px2=&ra1=1.414&ra2=0 */
   font-size: 1.375em;
   line-height: 1.414em;
 }
