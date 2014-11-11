@@ -13,3 +13,21 @@ article,aside,header,footer,small {
   font-size: inherit;
 }
 
+/* Base */
+html {
+  font-family: Georgia,Times,"Times New Roman",serif;
+  font-size: 1.375em;
+  line-height: 1.414em;
+}
+a {
+  text-decoration: none;
+}
+
+/* Layout */
+
+/* Module */
+
+/* State */
+html.wf-active {
+  font-family: "garvis-pro",Georgia,Times,"Times New Roman",serif;
+}
