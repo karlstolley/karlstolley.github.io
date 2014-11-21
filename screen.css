@@ -15,9 +15,9 @@ article,aside,header,footer,small {
 
 /* Base */
 html {
-  font-family: Georgia,Times,"Times New Roman",serif;
+  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
   /* http://modularscale.com/scale/?px1=22&px2=&ra1=1.414&ra2=0 */
-  font-size: 1.375em;
+  font-size: 0.707em;
   line-height: 1.414em;
 }
 a {
@@ -27,8 +27,9 @@ a {
 /* Layout */
 
 /* Module */
-
+.tagline {
+  font-size: 1.999em;
+}
 /* State */
 html.wf-active {
-  font-family: "garvis-pro",Georgia,Times,"Times New Roman",serif;
 }
