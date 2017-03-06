@@ -17,19 +17,41 @@ article,aside,header,footer,small {
 html {
   font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
   /* http://modularscale.com/scale/?px1=22&px2=&ra1=1.414&ra2=0 */
-  font-size: 0.707em;
-  line-height: 1.414em;
+  background-color: #263d51;
+  color: #b6b6b6;
+  line-height: 1.667em;
 }
 a {
   text-decoration: none;
+  color: #e2d3af;
 }
 
 /* Layout */
 
 /* Module */
+#page {
+  width: 95%;
+  margin-left: 3%;
+  margin-right: 2%;
+}
+#header h1 {
+  font-size: 1.5em;
+  line-height: 2.22266666666667em;
+  padding-top: 3.334em;
+  display: inline-block;
+}
 .tagline {
-  font-size: 1.999em;
+  padding-bottom: 3.334em;
+}
+#footer {
+  font-size: 0.787em;
 }
 /* State */
 html.wf-active {
 }
+
+/* Notes:
+Colors inspired by http://www.colourlovers.com/palette/3563287/Born
+
+
+*/
