@@ -1,0 +1,1320 @@
+--> Page 41 a
+
+<head>
+  <script>
+    function doSomething() {
+      /* function that does something */
+    }
+  </script>
+</head>
+<body onload="doSomething();">
+  <!--page content here-->
+</body>
+
+
+
+--> Page 41 b
+
+document.addEventListener("DOMContentLoaded",
+  function() {
+    doSomething();
+  }
+);
+function doSomething() {
+  /* function that does something */
+}
+
+
+
+--> Page 65
+
+# My To-Do List
+
+## Today
+* Item
+
+## Tomorrow
+* Item
+
+
+
+--> Page 66
+
+$ git status
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+# (use "git add <file>. . ." to include in what
+    will be committed)
+#
+# list.txt
+nothing added to commit but untracked files present
+  (use "git add" to track)
+
+
+
+--> Page 70
+
+# My To-Do List
+
+## Today
+* Learn Git
+* Finish to-do list for tomorrow
+
+## Tomorrow
+* Put everything web-based under Git control
+* Update this to-do list
+
+
+
+--> Page 125
+
+<aside class="tip">
+  <h2>Indentation Makes Source Readable</h2>
+  <p>
+    However, some text editors require you to
+    do your indentation manually.
+  </p>
+</aside>
+
+
+
+--> Page 126
+
+@media screen and (min-width: 37.5em) {
+  #page {
+    width: 90%;
+  }
+}
+
+
+
+--> Page 127 a
+
+/* Here is a comment in CSS */
+
+/*
+  Here is a comment in JavaScript, broken
+  over multiple lines. This same style of
+  comment is allowed in CSS, too.
+*/
+
+
+
+--> Page 127 b
+
+// This is also a JavaScript comment, but
+// each line must start with slashes, because
+// each comment ends with a line break
+
+
+
+--> Page 129
+
+p {
+  width: 100px;
+/*padding: 50px;*/
+/*
+  The padding is changing the width,
+  so I’ve commented it out for
+  testing purposes.
+*/
+}
+
+
+
+--> Page 140-141
+
+<body>
+  <h1>John Smith’s Home Page</h1>
+  <h2>Portfolio Overview</h2>
+  <p>
+    See sample work in
+    <a href="portfolio.html">my
+    portfolio</a>...
+  </p>
+  <h2>Latest Projects</h2>
+  <p>
+    Read all about my
+    <a href="projects.html">latest
+    projects</a>...
+  </p>
+  <ul>
+    <li><a href="index.htm">Home</a></li>
+    <li><a href="resume.htm">Resume</a></li>
+    <li><a href="contact.htm">Contact</a></li>
+  </ul>
+  <p>
+    All site content is licensed for use under a
+    <a rel="license" href=
+    "https://creativecommons.org/licenses/by/4.0/">
+    Creative Commons 4.0 International License</a>.
+  </p>
+</body>
+
+
+
+--> Page 141-142
+
+<body>
+  <header id="header">
+    <h1>John Smith’s Home Page</h1>
+  </header>
+  <main id="content">
+    <section id="primary">
+      <h2>Portfolio Overview</h2>
+      <p>
+        See sample work in
+        <a href="portfolio.html">my
+        portfolio</a>...
+      </p>
+      <h2>Latest Projects</h2>
+      <p>
+        Read all about my
+        <a href="projects.html">latest
+        projects</a>...
+      </p>
+    </section>
+  </main>
+  <nav id="navigation">
+    <ul>
+      <li><a href="index.htm">Home</a></li>
+      <li><a href="resume.htm">Resume</a></li>
+      <li><a href="contact.htm">Contact</a></li>
+    </ul>
+  </nav>
+  <footer id="footer">
+    <p>
+      All site content is licensed for use under a
+      <a rel="license" href=
+      "https://creativecommons.org/licenses/by/4.0/">
+      Creative Commons 4.0 International License</a>.
+    </p>
+  </footer>
+</body>
+
+
+
+--> Page 144
+
+<p>
+  I enjoyed Peter Jackson’s <cite class="film">Lord
+  of the Rings</cite> films, but they still
+  weren’t as good as the original
+  <cite class="book">Lord of the Rings</cite> books
+  by J. R. R. Tolkien.
+</p>
+
+
+
+--> Page 145 a
+
+<ul>
+  <li class="favorite-foods">Pizza</li>
+  <li class="favorite-foods">
+    Cheeseburgers
+  </li>
+  <li class="favorite-foods">Cake</li>
+</ul>
+
+
+
+--> Page 145 b
+
+<ul class="favorite-foods">
+  <li>Pizza</li>
+  <li>Cheeseburgers</li>
+  <li>Cake</li>
+</ul>
+
+
+
+--> Page 149
+
+selector {
+  property: value;
+    /*
+      For properties that take a single
+      value, e.g.,
+      color: blue;
+    */
+
+  property: value, value, value;
+    /*
+      Commas separate values ordered by
+      preference, e.g.,
+      font-family: Helvetica, Arial,
+        sans-serif;
+    */
+
+  property: value value value;
+    /*
+      For shorthand properties that
+      require multiple values, e.g.,
+      border: 10px solid red;
+    */
+}
+
+
+
+--> Page 153
+
+p { text-indent: 1.2em; }
+  /* 1.2em first-line indent */
+
+.warning {
+  color: red;
+  font-weight: bold;
+}
+p.warning { text-indent: 0; }
+  /* No first-line indent */
+
+
+
+--> Page 155-156
+
+a, a:link {
+  color: green;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  text-decoration: underline;
+}
+a:visited { color: red; }
+
+
+
+--> Page 169
+
+var user = {
+      name: "Mary",
+       url: "http://example.com/mary/",
+  birthday: "February 8",
+      pets: 2,
+ logged_in: true,
+    colors: ["red", "blue", "green"]
+};
+
+user.birthday; // "February 8"
+
+
+
+--> Page 170 a
+
+user.name; // Mary, from the example above
+
+user.logged_in = false;
+// Now user Mary is no longer logged in
+user.email = "mary@example.com";
+// Now user Mary has an email property
+
+
+
+--> Page 170 b
+
+var age = 18;
+if (age >= 18) {
+  // Do something for people aged 18 or older
+} else {
+  // Do something for people under age 18
+}
+
+
+
+--> Page 172
+
+function forEach(arr,func) {
+  for (var i = 0; i < arr.length; i++) {
+    func(arr[i]);
+  }
+}
+
+var colors = ["red", "blue", "green"];
+var animals = ["dog", "cat", "bird"];
+
+forEach(colors, console.log);
+// The JavaScript console will output:
+// red
+// blue
+// green
+
+forEach(animals, alert);
+// Three annoying pop-ups that read
+// "dog", "cat", and "bird" will appear
+// in the browser
+
+
+
+--> Page 173
+
+Array.prototype.each = function(func) {
+  for (var i = 0; i < this.length; i++) {
+    func(this[i]);
+  }
+  return this; // return the object a
+  // method is called on
+};
+var colors = ["red", "blue", "green"];
+colors.each(console.log);
+// The JavaScript console will output:
+// red
+// blue
+// green
+
+
+
+--> Page 181
+
+<meta name="viewport"
+  content="width=device-width,
+    initial-scale=1.0,shrink-to-fit=no">
+
+
+
+--> 184
+
+html { font-size: 1.6em; }
+  body:after {
+    content: "mobile";
+    display: none;
+  }
+  @media screen and (min-width: 990px) {
+    html { font-size: 1.8em; }
+    body:after {
+      content: "medium";
+    }
+}
+
+--> Page 184-185
+
+function responsiveSize(target) {
+  // size will read the content property on
+  // body:after
+  var size = window
+    .getComputedStyle(document.body,':after')
+    .getPropertyValue('content');
+  if (size.indexOf(target) == -1) {
+    // indexOf string method is -1 if
+    // the target isn't in size object
+    return false;
+    // return false (not the target)
+  }
+  else {
+    return true; // otherwise, return true
+  }
+}
+
+if (responsiveSize('medium')) {
+  // JavaScript to run at medium size
+}
+
+
+
+--> Page 190
+
+$ cd Projects/rpk/site
+$ http-server
+Starting up http-server, serving ./
+Available on:
+  http://127.0.0.1:8080
+  http://192.168.1.6:8080
+Hit CTRL-C to stop the server
+
+
+
+--> Page 202
+
+<h2>Résumé</h2>
+  <h3>Objective</h3>
+  <h3>Work Experience</h3>
+    <h4>Industry</h4>
+    <h4>Government</h4>
+  <h3>Education</h3>
+  <h3>Software Skills</h3>
+
+
+
+--> Page 205
+
+<dl>
+  <dt>CSS</dt>
+  <dd>
+    Cascading Style Sheets, the design
+    language of the web.
+  </dd>
+  <dt>HTML</dt>
+  <dt>XHTML</dt>
+  <dd>
+    Hypertext Markup Language, sometimes
+    Extensible Hypertext Markup Language,
+    the structural language of the web.
+  </dd>
+</dl>
+
+
+
+--> Page 206
+
+<ul>
+  <li>Red
+    <ul>
+      <li>Crimson</li>
+      <li>Scarlet</li>
+    </ul>
+  </li>
+  <li>Yellow
+    <ul>
+      <li>Lemon</li>
+      <li>Gold</li>
+    </ul>
+  </li>
+  <li>Blue
+    <ul>
+      <li>Navy</li>
+      <li>Cobalt</li>
+    </ul>
+  </li>
+</ul>
+
+
+
+--> Page 206-207
+
+<p>
+  The Constitution of the United States
+  opens with:
+</p>
+
+<blockquote>
+  <p>
+    We the People of the United States,
+    in Order to form a more perfect
+    Union, establish Justice, ensure
+    domestic Tranquility, provide for
+    the common defence, promote the
+    general Welfare, and secure the
+    Blessings of Liberty to ourselves
+    and our Posterity, do ordain and
+    establish this Constitution for
+    the United States of America.
+  </p>
+</blockquote>
+
+
+
+--> Page 209
+
+<p>
+  Read the online Web magazine <cite>A List
+  Apart</cite> for the latest developments
+  in web design.
+</p>
+
+
+
+-->  Page 209-210
+
+<ol>
+  <li>
+    <b>A few words in bold text</b> can
+    help guide people’s eyes without
+    using the semantic importance of the
+    strong tag.
+  </li>
+</ol>
+
+
+
+--> Page 210
+
+<header id="header">
+  <h1><a rel="home"
+    href="http://example.com/">Example.com</a>
+  </h1>
+  <p class="tagline">Showcasing the very best
+    examples on the web</p>
+</header>
+
+
+
+--> Page 211
+
+<footer id="footer">
+  <p class="copyright">
+    Site contents and design © Karl
+    Stolley. Licensed under <a rel="license" href=
+    "https://creativecommons.org/licenses/by/4.0/">
+    Creative Commons</a>.
+  </p>
+</footer>
+
+
+
+--> Page 212
+
+<header id="header">
+  <h1><a rel="home"
+    href="http://example.com/">Example.com</a>
+  </h1>
+  <p class="tagline">Showcasing the very best
+    examples on the web</p>
+  <nav id="navigation">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/contact/">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+--> Page 221
+
+html {
+  font-size: 1.125em; /* 18px / 16px =
+    1.125em */
+  line-height: 1.222em; /* 22px / 18px =
+    1.222em, or ~ 120% of the font size */
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+
+
+--> Page 226
+
+h1 {
+  font-size: 2.369em;
+    /* 42.635px / 18px = 2.369 */
+}
+h2 {
+  font-size: 1.777em;
+    /* 31.984px / 18px = 1.777em */
+}
+h3 {
+  font-size: 1.333em;
+    /* 23.994px / 18px = 1.333em */
+}
+/* h4 same size as page type; h5 and h6 not used */
+
+
+
+--> Page 226-227
+
+h1 {
+  font-size: 1.777em;
+    /* 31.984px / 18px = 1.777em */
+}
+h2 {
+  font-size: 1.333em;
+    /* 23.994px / 18px = 1.333em */
+}
+/* h3, h4 same size as page type; h5 and h6
+   not used */
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 2.369em;
+      /* 42.635px / 18px = 2.369 */
+  }
+  h2 {
+    font-size: 1.777em;
+      /* 31.984px / 18px = 1.777em */
+  }
+  h3 {
+    font-size: 1.333em;
+      /* 23.994px / 18px = 1.333em */
+  }
+  /* h4 same size as page type */
+}
+
+
+
+--> Page 228
+
+h1 {
+  font-size: 1.777em;
+    /* 31.984px / 18px = 1.777em */
+  line-height: 1.376em;
+    /* 44px / 31.984px = 1.377em; two gridlines */
+}
+h2 {
+  font-size: 1.333em;
+    /* 23.994px / 18px = 1.333em */
+  line-height: 1.375em;
+    /* 33px / 23.994px = 1.375em;
+       one and a half gridlines */
+}
+/* h3, h4 same size as page type; h5, h6 not used */
+
+
+
+--> Page 230
+
+p {
+  text-indent: 1.222em;
+    /* One lead, or 22px (base line-height) */
+}
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p {
+  text-indent: 0; /* No indentation on
+    paragraphs that follow headings */
+}
+
+
+
+--> Page 231 sidebar
+
+html {
+  color: #F0F0F0; /* Very light shade of gray;
+    text will appear white */
+  background-color: #222; /* Very dark shade
+    of gray; background will appear black */
+}
+
+
+
+--> Page 232-233
+
+p,
+ul,
+ol,
+dl {
+  padding-bottom: 1.222em;
+    /* One empty gridline (22px) */
+}
+h1 {
+  font-size: 1.777em;
+    /* 31.984px / 18px = 1.777em */
+  line-height: 1.376em;
+    /* 44px / 31.984px = 1.376em; two gridlines */
+  padding-bottom: 0.688em;
+    /* 22px / 31.984px = one gridline */
+}
+h2 {
+  font-size: 1.333em;
+    /* 23.994px / 18px = 1.333em */
+  line-height: 1.375em;
+    /* 33px / 23.994px = 1.375em;
+       one and a half gridlines */
+  padding-bottom: 0.917em;
+    /* 22px / 23.994px = 0.917em; one gridline */
+}
+
+
+
+--> Page 234 a
+
+ul,
+ol {
+  padding-bottom: 1.222em;
+    /* One empty gridline (22px) */
+}
+li {
+  padding-bottom: 0.611em;
+    /* One-half empty gridline (11px) */
+}
+
+
+
+--> Page 234 b
+
+ul,
+ol {
+  padding-bottom: 1.222em;
+    /* One empty gridline (22px) */
+}
+li {
+  padding-bottom: 0.611em;
+    /* One-half empty gridline (11px) */
+}
+li:last-child {
+  padding-bottom: 0;
+}
+
+
+
+--> Page 235
+
+ul,
+ol {
+  padding-bottom: 0.611em;
+    /* One-half empty gridline (11px) */
+}
+li {
+  padding-bottom: 0.611em;
+    /* One-half empty gridline (11px) */
+}
+
+
+
+
+--> Page 235-236
+
+<nav id="navigation">
+  <ul class="navigation">
+    <li class="accessibility">
+      <a href="#content">Skip to page
+      content</a></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about/">About</a></li>
+  </ul>
+</nav>
+
+
+
+--> Page 236
+
+.navigation,
+.navigation li {
+  padding: 0; /* Remove padding set on base
+    ul and li styles */
+}
+.navigation li {
+  display: inline-block;
+    /* Display navigation items side-by-side */
+  line-height: 1; /* Set line-height to 1;
+    replace with padding on li a */
+}
+.navigation li a {
+  display: block; /* Display links as
+    blocks for larger clickable areas */
+  padding: 0.722em; /* 13px / 18px = 0.722em */
+}
+
+
+
+--> Page 249
+
+#page {
+  padding-left: 22px;
+  padding-right: 22px;
+  /* Pixel units for testing purposes */
+}
+
+
+
+--> Page 251
+
+#page {
+  padding-left: 5.641025641%;
+    /* 33px / 585px = 0.05641025641 */
+  padding-right: 5.641025641%;
+    /* 33px / 585px = 0.05641025641 */
+}
+
+
+
+--> Page 252
+
+@media screen and (min-width: 585px) {
+  #primary {
+    width: 61.28709056%;
+      /* 318.08px / 519px = 0.6128709056 */
+  }
+  #supporting {
+    width: 34.47398844%;
+      /* 178.92px / 519px = 0.3447398844 */
+  }
+}
+
+
+
+--> Page 255-256
+
+@media screen and (min-width: 585px) {
+  #primary {
+    width: 61.28709056%;
+      /* 318.08px / 519px = 0.6128709056 */
+    float: left;
+  }
+  #supporting {
+    width: 34.47398844%;
+      /* 178.92px / 519 = 0.3447398844 */
+    margin-left: 65.52601156%;
+      /* 340.08px / 519px = 0.6552601156 */
+  }
+  #footer {
+    clear: both;
+  }
+}
+
+
+
+--> Page 259
+
+@media screen and (min-width: 945px) {
+  #page {
+    padding-left: 12.63068783%;
+      /* 119.36px / 945px = 0.1263068783 */
+    padding-right: 12.63068783%;
+      /* 119.36px / 945px = 0.1263068783 */
+  }
+  #primary {
+    width: 58.75403523%; /* 3-col zone */
+      /* 414.968px / 706.28px = 0.5875403523 */
+  }
+  #supporting {
+    margin-left: 61.86894716%; /* 3-column offset */
+      /* 436.968px / 706.28px = 0.6186894716 */
+    width: 38.13105284%; /* 2-column zone */
+      /* 269.312px / 706.28px = 0.3813105284 */
+  }
+}
+
+
+
+--> Page 264-266 *Should now end on 265, above the image
+
+#header {
+  padding-top: 3.667em;
+    /* 66px (button + gridline) / 18px = 3.667 */
+}
+.navigation li, .navigation li:last-child {
+  display: inline-block;
+  padding: 0;
+}
+.navigation {
+  line-height: 1;
+  padding: 0;
+}
+.navigation li a {
+  display: block;
+  background-color: #222;
+  color: #EFE5BE;
+  text-decoration: none;
+  padding: 1.222em; /* 22px / 18px = 1.222em */
+  padding-top: 0.722em; /* 13px / 18px = 0.722em */
+  padding-bottom: 0.722em;
+}
+
+
+
+--> Page 270
+
+<figure id="photo-woods">
+  <img src="/media/img/woods.jpg"
+    alt="Photo of a road in the woods." />
+  <figcaption>
+    A road winding through the deep woods in
+    northern Wisconsin.
+  </figcaption>
+</figure>
+
+
+
+--> Page 271
+
+<p>
+  I snapped <a href="#photo-woods">the photo
+  on this page</a> while on a walk in the
+  woods last summer.
+</p>
+
+
+
+--> Page 272
+
+<figure id="photo-woods"
+  aria-labelled-by="caption-woods"
+  aria-described-by="description-woods">
+  <img src="/media/img/woods.jpg"
+    alt="Photo of a road in the woods." />
+  <figcaption id="caption-woods">
+    A road winding through the deep woods in
+    northern Wisconsin.
+    <a href="#description-woods">Full
+      description</a>.
+  </figcaption>
+</figure>
+
+
+
+--> Page 274
+
+mobile: -> 519px max. (100% width of #page @ 585px)
+min-width: 585px -> 317-580px
+  (61.28709056% width of #page @ 945px)
+min-width: 945px -> 415-687px
+  (58.75403523% width of #page @ 1170px)
+min-width: 1170px -> 514px max.
+  (58.75403523% max-width of #page @ 1170px)
+
+
+
+--> Page 277 a
+
+<img
+  srcset="/media/img/1024-20-woods.jpg 1024w,
+    /media/img/woods-690-60.jpg 690w,
+    /media/img/woods-580-60.jpg 580w,
+    /media/img/woods-520-80.jpg 520w,
+    /media/img/woods-260-80.jpg 260w"
+  sizes="(min-width: 945px) 44vw,
+    (min-width: 585px) 54vw,
+    100vw"
+  src="/media/img/woods-260-80.jpg"
+  alt="Photo of a road in the woods." />
+
+
+
+--> Page 277 b
+  min-width: 585px -> 317-580px
+    (61.28709056% width of #page @ 945px)
+
+
+
+--> Page 279
+
+<audio controls="controls">
+  <source src="/media/audio/interview.mp3"
+    type="audio/mpeg" />
+  <p>Download <a href="/media/audio/interview.mp3">
+    the audio file</a>.</p>
+</audio>
+
+
+
+--> Page 280
+
+<video controls="controls">
+  <source src="/media/video/virtual-tour.mp4"
+    type="video/mp4">
+  <source src="/media/video/virtual-tour.webm"
+    type="video/webm">
+  <p>
+    Download this video as
+    <a href="/media/video/virtual-tour.mp4">
+      MP4</a>
+    or <a href="/media/video/virtual-tour.webm">
+      WebM</a>.
+  </p>
+</video>
+
+
+
+--> Page 284-285
+
+.flexbox #header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+}
+.flexbox #header h1 {
+  order: 2;
+}
+.flexbox #navigation {
+  position: static;
+  order: 1;
+}
+
+
+
+--> Page 285-286
+
+<head>
+  <!-- Other <head> elements here -->
+  <script>
+    // Create a <picture> element for older IE
+    document.createElement('picture');
+  </script>
+  <script src="/js/picturefill.min.js"
+    async="async"></script>
+</head>
+
+
+
+--> Page 289
+
+// release $ from jQuery’s control:
+jQuery.noConflict();
+// call the jQuery object directly:
+jQuery(
+  // jQuery passed in as a reference using $:
+  function($) {
+    // Scripts written here will use $
+    // and run once the DOM has loaded.
+  }
+);
+
+
+
+--> Page 290
+
+jQuery(
+  function($) {
+    $('#header h1').html('DOM Scripting Is \
+      Awesome');
+  });
+
+
+
+--> Page 290-291
+
+// remove the nojs class on the <html> tag:
+$('html').removeClass('nojs');
+// add a hasjs class on <html>:
+$('html').addClass('hasjs');
+
+
+
+--> Page 291-292
+
+/* CSS */
+
+.nojs *[title] {
+  /*
+    Default styles for elements
+    that have a title attribute
+  */
+}
+.hasjs *[title] {
+  /*
+    Styles for elements with title attributes
+    when JavaScript is active.
+  */
+}
+
+
+
+--> Page 292
+
+$('abbr[title]').each(function() {
+  var abbr, title, expandedText;
+  abbr = $(this).text();
+  title = $(this).attr('title');
+  expandedText = title + ' (' + abbr + ')';
+  $(this).attr('data-expanded', expandedText);
+  $(this).attr('tabindex', '0');
+});
+
+
+
+--> Page 293
+
+$('abbr[title]').on('click keypress', function() {
+  $(this).html($(this).attr('data-expanded'))
+    .addClass('expanded')
+    .removeAttr('data-expanded title tabindex');
+});
+
+
+
+--> Page 294
+
+$('a.textsizer').on('click keypress', function() {
+  var size = $('html').css('font-size');
+  $('html').css('font-size', function() {
+    var newsize = size.split('px')[0] * 1.10;
+    return (newsize / 16) + 'em';
+  });
+});
+
+
+
+--> Page 295
+
+$('a[href^="http"]').on('click', function(e) {
+  // open window with the window object:
+  window.open(this.href,'_blank');
+  // prevent the default link-clicking behavior
+  e.preventDefault();
+});
+
+
+
+--> Page 310 a
+
+!!! 5
+%html
+  %head
+  %body
+
+
+
+--> Page 310 b
+
+!!! 5
+%html
+  %head
+    %meta{charset: "utf-8"}
+    %meta{name: "viewport",
+      content: "width=device-width"}
+    %body
+
+
+
+--> Page 310-311
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width"
+      name="viewport" />
+  </head>
+  <body></body>
+</html>
+
+
+
+--> Page 311
+%p
+  Here is a paragraph in Haml, written
+  across multiple different lines in
+  the source code.
+
+
+
+--> Page 311 sub
+
+<p>
+  Here is a paragraph in Haml, written
+  across multiple different lines in
+  the source code.
+</p>
+
+
+
+--> Page 312 a
+
+<!DOCTYPE html>
+<html class="nojs">
+  <head></head>
+  <body id="home"></body>
+</html>
+
+
+
+--> Page 312 b
+
+%div
+  :markdown
+    ## I Am a Second-Level Heading
+
+    I will be a paragraph. And here is an
+    unordered list:
+
+    * Red
+    * Green
+    * Blue
+
+
+
+--> Page 312-313
+
+<div>
+  <h2 id="i-am-a-second-level-heading">I Am
+  a Second-Level Heading</h2>
+  <p>I will be a paragraph. And here is
+  an unordered list:</p>
+  <ul>
+    <li>Red</li>
+    <li>Green</li>
+    <li>Blue</li>
+  </ul>
+</div>
+
+
+
+--> Page 313
+
+$primaryColor: #6054FF;
+$serifFontStack: Georgia, Palatino,
+  "Times New Roman", serif;
+html {
+  color: $primaryColor;
+  font-family: $serifFontStack;
+}
+
+
+
+--> Page 314 a
+
+html {
+  color: #6054FF;
+  font-family: Georgia, Palatino,
+    "Time New Roman", serif;
+}
+
+
+
+--> Page 314 b
+
+header {
+  color: red;
+  background: #222;
+  h1 {
+    color: #EEE;
+  }
+}
+
+
+
+--> Page 314 c
+
+header {
+  color: red;
+  background: #222; }
+header h1 {
+  color: #EEE; }
+
+
+
+--> Page 315 a
+
+$linkColor: #900;
+a {
+  color: $linkColor;
+  &:hover,
+  &:active {
+    color: lighten($linkColor, 40%);
+  }
+  &:visited {
+    color: darken($linkColor, 20%);
+  }
+}
+
+
+
+--> Page 315 b
+
+a {
+  color: #900;
+}
+a:hover, a:active {
+  color: #ff6666;
+}
+a:visited {
+  color: #330000;
+}
+
+
+
+--> Page 316 a
+
+html {
+  font-size: toEms(19px);
+}
+h1 {
+  font-size: toEms(27px,19px);
+}
+
+
+
+--> Page 316 b
+
+html {
+  font-size: 1.1875em;
+}
+h1 {
+  font-size: 1.42105em;
+}
