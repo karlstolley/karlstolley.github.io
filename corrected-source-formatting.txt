@@ -642,7 +642,7 @@ h1 {
   font-size: 1.777em;
     /* 31.984px / 18px = 1.777em */
   line-height: 1.376em;
-    /* 44px / 31.984px = 1.377em; two gridlines */
+    /* 44px / 31.984px = 1.376em; two gridlines */
 }
 h2 {
   font-size: 1.333em;
